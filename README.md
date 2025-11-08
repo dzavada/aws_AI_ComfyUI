@@ -1,6 +1,9 @@
 # AWS GPU AI Workstation Launcher
 
 Automated AWS EC2 GPU instance launcher with ComfyUI and ComfyUI-Manager pre-installed. Launch powerful GPU workstations in minutes with automatic setup, live pricing, and one-command teardown.
+This script is something I put together to help anyone who needs a more powerful system for ComfyUI, workflow processing, or rendering. It automatically builds an EC2 instance, installs and configures everything, and then sets it up so you’re ready to start working as soon as the process completes.
+
+You’ll need to have a paid AWS account and make sure your vCPU quota is high enough — you can check or increase this in the AWS Service Quotas or EC2 vCPU limits section of your account.
 
 ## Features
 
