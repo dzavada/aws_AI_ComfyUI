@@ -240,4 +240,4 @@ For issues or questions:
 
 ---
 
-**Happy GPU Computing! 🚀**
+**Happy GPU Computing! **
