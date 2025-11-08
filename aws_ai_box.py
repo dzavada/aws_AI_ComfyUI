@@ -147,7 +147,7 @@ def prompt_user_inputs():
     pem_path = None
     
     if existing_pems:
-        print(f"\n🔑 Found existing key files:")
+        print(f"\nFound existing key files:")
         for i, pem_file in enumerate(existing_pems, 1):
             print(f"  {i}. {pem_file}")
         
