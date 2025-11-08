@@ -4,14 +4,14 @@ Automated AWS EC2 GPU instance launcher with ComfyUI and ComfyUI-Manager pre-ins
 
 ## Features
 
-- 🚀 **One-Command Launch** - Fully automated EC2 instance creation and setup
-- 💰 **Live Pricing** - Real-time AWS pricing via Pricing API
-- 🔑 **Automatic Key Management** - Creates and saves SSH key pairs automatically
-- 🎨 **Pre-installed Software** - ComfyUI + ComfyUI-Manager ready to use
-- 🌐 **Auto Browser Launch** - Opens ComfyUI web UI when ready
-- 🔒 **Security** - Automatic security group configuration with your IP
-- 🗑️ **Easy Cleanup** - One command to destroy all resources
-- 📊 **Multiple GPU Options** - Support for g6, g6e, and p5 instance types
+- **One-Command Launch** - Fully automated EC2 instance creation and setup
+- **Live Pricing** - Real-time AWS pricing via Pricing API
+- **Automatic Key Management** - Creates and saves SSH key pairs automatically
+- **Pre-installed Software** - ComfyUI + ComfyUI-Manager ready to use
+- **Auto Browser Launch** - Opens ComfyUI web UI when ready
+- **Security** - Automatic security group configuration with your IP
+- **Easy Cleanup** - One command to destroy all resources
+- **Multiple GPU Options** - Support for g6, g6e, and p5 instance types
 
 ## Prerequisites
 
@@ -124,10 +124,10 @@ The instance comes with:
 ## Troubleshooting
 
 ### "InvalidPermission.Duplicate" Error
-✅ **Fixed**: The script now handles duplicate security group rules gracefully.
+ **Fixed**: The script now handles duplicate security group rules gracefully.
 
 ### "InvalidAMIID.NotFound" Error
-✅ **Fixed**: The script now dynamically finds the latest available AMI in your region.
+ **Fixed**: The script now dynamically finds the latest available AMI in your region.
 
 ### ComfyUI Not Loading
 - Check instance is running: `python main.py status` (if implemented)
@@ -141,7 +141,7 @@ The instance comes with:
 
 ## Cost Management
 
-⚠️ **Important**: GPU instances are expensive!
+ **Important**: GPU instances are expensive!
 
 - g6e.xlarge: ~$0.65/hour = ~$468/month if left running
 - g6e.4xlarge: ~$2.00/hour = ~$1,440/month if left running
